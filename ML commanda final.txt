@@ -1,0 +1,16 @@
+---------Steps to deploying pre-trained ML model-----------
+1. Install sklearn package
+Syntax:
+pip3 install -U scikit-learn
+
+Optional Syntax if the above code is not working: 
+pip3 install --user -U scikit-learn==1.3.0
+
+
+2. Check the version
+Type in terminal: 
+python3
+>>> import sklearn                                                                                                      
+>>> sklearn.__version__  
+
+3. Upload the pickle file in the folder where the MQTT Subscriber Code is available
